@@ -1,0 +1,437 @@
+body{background-color: #f8f8f8;}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	border-bottom: 3px solid #F9B515;
+    color: #F9B515;
+    transition: all 0.4s;
+}
+.navbar-light .navbar-nav .nav-link{
+	border-bottom: 3px solid transparent;
+}
+.navbar{
+	padding-bottom: 0;
+}
+.header-link .nav-link{
+	color: rgba(0, 0, 0, 0.5);
+}
+.header-link .nav-link:hover{
+	border-bottom: 3px solid #F9B515;
+    color: #F9B515;
+    transition: all 0.4s;
+}
+
+.search-wrap{
+	background-color: #182642;
+	padding: 10px;
+}
+.search-wrap h1{
+	color: white;
+	font-size: 18px;
+}
+.search-bg{
+	padding: 15px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+#job-search-form .field:nth-of-type(1) {
+    margin-right: 1px;
+}
+#job-search-form .field {
+    width: calc(39% - 1px);
+    float: left;
+    padding-bottom: 0;
+}
+.form .field.with-fa {
+    position: relative;
+}
+.form .field {
+    padding-bottom: 20px;
+    display: block;
+    width: 100%;
+    list-style: none !important;
+}
+.form .field.with-fa span.fa {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #CCC;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#job-search-form .field input[type="text"], #job-search-form .field select {
+    height: 45px;
+    width: 100%;
+    background: #FFF;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: "Lato", "Arial", sans-serif;
+    outline: none;
+}
+#job-search-form .field:nth-of-type(1) input {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+#job-search-form .field {
+    width: calc(39% - 1px);
+    float: left;
+    padding-bottom: 0;
+}
+form .field.with-fa {
+    position: relative;
+}
+.form .field.with-fa span.fa {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #CCC;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#job-search-form .field input[type="text"], #job-search-form .field select {
+    height: 45px;
+    width: 100%;
+    background: #FFF;
+    padding: 10px;
+    border: 0;
+    padding-left: 45px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: "Lato", "Arial", sans-serif;
+    outline: none;
+}
+#job-search-form .field:nth-of-type(2) input, #job-search-form .field:nth-of-type(2) select {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.easy-autocomplete-container {
+    text-align: left !important;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.easy-autocomplete-container ul {
+    background: none repeat scroll 0 0 #ffffff;
+    border-top: 1px dotted #ccc;
+    display: none;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    position: relative;
+    top: -1px;
+}
+.form .field.with-fa #geolocation {
+    position: absolute;
+    top: 8px;
+    right: 18px;
+    color: #182642;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+#job-search-form .field:nth-of-type(3) {
+    margin-left: 1%;
+    width: 21%;
+    margin-right: 0;
+}
+#job-search-form .field {
+    width: calc(39% - 1px);
+    float: left;
+    padding-bottom: 0;
+}
+
+#job-search-form .field input[type="submit"] {
+    width: 100%;
+    border: 0;
+    padding: 10px 15px;
+    height: 45px;
+    margin: 0;
+    font-family: "Lato", "Arial", sans-serif;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.main{
+	padding-bottom: 100px;
+}
+.header a img{
+	width: 240px;
+}
+
+.body{
+	margin-top: 5px;
+}
+.body .left-panel{
+	background-color: white;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+}
+.box-wrap{
+	border-bottom: 1px solid #e2e2e2;
+}
+.box-wrap h2{
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center;
+	cursor: pointer;
+	padding: 10px 10px 15px 10px;
+	margin-bottom: 0;
+}
+.box-wrap h2:hover{
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+}
+.box-wrap h2 span{
+	font-size: 14px;
+}
+.box-wrap h2 span.heading{
+	font-size: 12px;
+	font-weight: bold;
+}
+.radio-wrap{
+	padding: 10px;
+}
+.radio-wrap p{
+	margin-bottom: 3px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #4ecdff;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.right-panel{}
+.right-panel .right-panel-btn{
+	border: 1px solid #4ecdff;
+	background-color: transparent;
+	color: #4ecdff;
+	font-size: 14px;
+	border-radius: 4px;
+	padding: 3px 7px;
+}
+.right-panel .right-panel-btn:hover{
+	background-color: #4ecdff;
+	color: white;
+	transition: all 0.4s;
+}
+.right-panel p{
+	margin-top: 10px;
+	font-size: 14px;
+	border-bottom: 1px dotted #aaa;
+	padding-bottom: 10px;
+}
+.right-panel p span{
+	color: #4ecdff;
+}
+.right-panel p span.bold{
+	font-weight: bold;
+}
+.right-panel .card{
+	background-color: white;
+	padding: 10px;
+}
+.right-panel .card:hover{
+	box-shadow: 0 0 4px 0 rgba(0,0,0,0.3);
+	transition: all 0.4s;
+}
+.right-panel .card h3{
+	color: #4ecdff;
+	font-size: 16px;
+}
+.right-panel .card h4{
+	color: #666;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.right-panel .card h4 span{
+	font-size: 15px;
+	margin-right: 5px;
+	color: #666;
+}
+.right-panel .card ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+.right-panel .card ul li{
+	background-color: #eee;
+	padding: 5px;
+	float: left;
+	font-size: 12px;
+	padding-right: 10px;
+}
+.right-panel .card h5{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+	font-weight: 500;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.card .right-img-wrap{
+	border: 1px solid #eee;
+	border-radius: 6px;
+	height: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.card .right-img-wrap img{}
+
+
+.footer{
+    color: #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #F8F8F8;
+    padding: 12px;
+    border-top: 1px solid #CCC;
+    z-index: 2;
+    border-bottom: 1px solid #CCC;
+}
+.footer span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+	font-size: 11px
+}
+.footer a{
+    color: #f38422;
+    text-decoration: underline;
+	font-size: 11px
+}
+.footer .btn-blue{
+	background-color: #09A0DB;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+.popup-wrap{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    z-index: 999;
+}
+.popup{
+	position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: 350px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid #666;
+    padding: 10px;
+    border-radius: 2px;
+}
+.pop-header{}
+.pop-header img{
+	width: 240px;
+}
+.pop-body{}
+.pop-body .drop{ 
+	float: right; 
+}
+.pop-body .line{
+	border-bottom: 1px solid #ddd;	
+	padding: 20px 0;	
+}
+.pop-body .feedback p{}
+.pop-body .feedback{
+	border-bottom: 6px solid #aaa;
+	padding: 10px 0;
+}
+.pop-body .feedback input{
+	background-color: #eee;
+	padding: 5px;
+	width: 100%;
+	outline: none;
+	border: 0;
+	margin-bottom: 5px;
+}
+.pop-body .next-button{
+	margin-top: 20px;
+	text-align: right;
+}
+.pop-body .next-button button{
+	border: 0;
+	outline: 0;
+	background-color: #182642;
+	color: white;
+	padding: 2px 10px;
+	border-radius: 2px;
+}
+.pop-body p{
+	margin-top: 20px;
+	text-align: center;
+	color: #666;
+}
+.close-button{
+	position: absolute;
+	top: -7px;
+	right: -5px;
+}
+.close-button span{
+	font-size: 30px;
+}

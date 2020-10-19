@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+</head>
+<body>
+<div class="main">
+	<div class="header">
+		<div class="container-fluid p-0">
+			<nav class="navbar navbar-expand-lg navbar-light bg-white">
+			  <a class="navbar-brand" href="#"> <img class="logo-in" src="https://www.careerbuilder.co.in/cdn/assets/logos/cb_logo_navy-f99fc96c6c71fe50ef2d1bb09f0788d4657b16c4718b5d12030413b7fff413ac.svg" alt="Cb logo navy"> </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Dummy</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Link</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Dummy</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Link</a>
+			      </li>	      
+			    </ul>
+			    <div class="form-inline my-2 my-lg-0 ml-auto">
+			    	<div class="header-link">
+				        <a class="nav-link" href="#">Link</a>
+				    </div>
+				    <div class="header-link dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Dropdown
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Action</a>
+				          <a class="dropdown-item" href="#">Another action</a>
+				          <div class="dropdown-divider"></div>
+				          <a class="dropdown-item" href="#">Something else here</a>
+				        </div>
+					</div>
+				</div>
+			  </div>
+			</nav>
+		</div>
+	</div>
+	<div class="search-wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-11 offset-md-1">
+					<h1>Job and vacancies</h1>
+					<div class="search-bg">
+						<form id="job-search-form" class="form" action="/jobsearch" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+							<div class="field with-fa">
+								<span class="fa fa-search"></span>
+								<input type="text" name="q" id="Keywords" placeholder="eg. Programmer" autocomplete="off" data-enable-autocomplete-for-search-engine="false">
+							</div>
+							<div class="field with-fa">
+								<span class="fa fa-location-arrow"></span>
+								<div class="easy-autocomplete"><input type="text" name="loc" id="Location" placeholder="eg. Mumbai" autocomplete="off"><div class="easy-autocomplete-container" id="eac-container-Location"><ul style="display: none;"></ul></div></div>
+								<a id="geolocation" class="fa fa-bullseye" href="#"></a>
+							</div>
+							<div class="field">
+								<input type="submit" value="Find Jobs" id="sbmt" class="btn btn-primary">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="body">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="left-panel">
+						<div class="box-wrap">
+							<h2>
+								<span class="heading">Date Posted</span>
+								<span class="fa fa-minus"></span>
+							</h2>
+							<div class="radio-wrap">
+								<p>
+								    <input type="radio" id="test1" name="radio-group" checked>
+								    <label for="test1">24Hours</label>
+								</p>
+								<p>
+								    <input type="radio" id="test2" name="radio-group">
+								    <label for="test2">7days</label>
+								</p>
+								<p>
+								    <input type="radio" id="test3" name="radio-group">
+								    <label for="test3">30days</label>
+								</p>
+							</div>
+						</div>
+						<div class="box-wrap">
+							<h2>
+								<span class="heading">Categories</span>
+								<span class="fa fa-minus"></span>
+							</h2>
+							<div class="radio-wrap">
+								<p>
+								    <input type="radio" id="test10" name="radio-group" checked>
+								    <label for="test10">All</label>
+								</p>
+								<p>
+								    <input type="radio" id="test11" name="radio-group">
+								    <label for="test11">Full Time</label>
+								</p>
+								<p>
+								    <input type="radio" id="test12" name="radio-group">
+								    <label for="test12">Part Time</label>
+								</p>
+							</div>
+						</div>
+						<div class="box-wrap">
+							<h2>
+								<span class="heading">Job type</span>
+								<span class="fa fa-minus"></span>
+							</h2>
+							<div class="radio-wrap">
+								<p>
+								    <input type="radio" id="test4" name="radio-group" checked>
+								    <label for="test4">Information Technology</label>
+								</p>
+								<p>
+								    <input type="radio" id="test5" name="radio-group">
+								    <label for="test5">Engineering</label>
+								</p>
+								<p>
+								    <input type="radio" id="test6" name="radio-group">
+								    <label for="test6">Professional Services</label>
+								</p>
+							</div>
+						</div>
+						<div class="box-wrap">
+							<h2>
+								<span class="heading">States</span>
+								<span class="fa fa-minus"></span>
+							</h2>
+							<div class="radio-wrap">
+								<p>
+								    <input type="radio" id="test7" name="radio-group" checked>
+								    <label for="test7">Delhi</label>
+								</p>
+								<p>
+								    <input type="radio" id="test8" name="radio-group">
+								    <label for="test8">Mumbai</label>
+								</p>
+								<p>
+								    <input type="radio" id="test9" name="radio-group">
+								    <label for="test9">Chennai</label>
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="right-panel">
+						<button class="right-panel-btn"><span class="fa fa-envelope mr-2"></span>Email me jobs like these</button>
+						<p>Sort By: <span class="bold">Relevane</span> <span>Date:</span></p>
+						<div class="card">
+							<div class="row">
+								<div class="col-md-9">
+									<h3>Sr. Software Developer</h3>
+									<h4><span class="fa fa-clock-o"></span>Posted 6 days ago</h4>
+									<ul>
+										<li><span class="fa fa-list"></span> GST Global :</li>
+										<li><span class="fa fa-list"></span> Lorem :</li>
+										<li><span class="fa fa-list"></span> Ipsum</li>
+									</ul>
+									<h5>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</h5>
+								</div>
+								<div class="col-md-3 mt-2 mt-sm-0">
+									<div class="right-img-wrap">
+										<img src="images/ust-img.jpg" alt="image">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card mt-2">
+							<div class="row">
+								<div class="col-md-9">
+									<h3>Sr. Software Developer</h3>
+									<h4><span class="fa fa-clock-o"></span>Posted 6 days ago</h4>
+									<ul>
+										<li><span class="fa fa-list"></span> GST Global :</li>
+										<li><span class="fa fa-list"></span> Lorem :</li>
+										<li><span class="fa fa-list"></span> Ipsum</li>
+									</ul>
+									<h5>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</h5>
+								</div>
+								<div class="col-md-3 mt-2 mt-sm-0">
+									<div class="right-img-wrap">
+										<img src="images/ust-img.jpg" alt="image">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-2 mt-2 mt-sm-0">
+					<div>
+						<img src="images/body-right-img.gif" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="footer px-0">
+		<div class="container-fluid">
+			<span>
+				This site uses cookies. To find out more, see
+			</span>
+			<a href="#">Our Cookie Policy</a>
+			<a class="btn btn-blue btn-small ml-2" href="#">Ok</a>
+		</div>
+	</div>
+</div>
+
+
+<div class="popup-wrap">
+	<div class="popup">
+		<div class="pop-header text-center">
+			<img class="logo-in" src="https://www.careerbuilder.co.in/cdn/assets/logos/cb_logo_navy-f99fc96c6c71fe50ef2d1bb09f0788d4657b16c4718b5d12030413b7fff413ac.svg" alt="Cb logo navy">
+		</div>
+		<div class="pop-body">
+			<div class="drop">
+				<select>
+					<option>English</option>
+					<option>Hindi</option>
+					<option>French</option>
+				</select>
+			</div>
+			<div class="line"></div>
+			<div class="feedback">
+				<input type="text" name="" placeholder="Suggestions or General feedback">
+				<input type="text" name="" placeholder="ug or site issue">
+				<input type="text" name="" placeholder="Questions">
+			</div>
+			<div class="next-button">
+				<button> >> </button>
+			</div>
+			<p>Powered by Questions</p>
+		</div>
+		<div class="close-button">
+			<span class="fa fa-times-circle"></span>
+		</div>
+	</div>
+</div>
+
+ 
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+
+
+</body>
+</html>
